@@ -19,5 +19,6 @@ h5 {
 h6 {
   color: grey;
 }
-table {
-  border: "1";
+table, th, td {
+  border: 1px solid black;
+}
