@@ -22,3 +22,11 @@ h6 {
 table, th, td {
   border: 1px solid black;
 }
+.hagi {
+  color: orange;
+  font-weight: bold;
+}
+.figo {
+  color: green;
+  font-weight: bold;
+  
