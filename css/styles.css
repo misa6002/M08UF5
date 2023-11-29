@@ -25,6 +25,7 @@ table, th, td {
 .hagi {
   color: orange;
   font-weight: bold;
+  font-size: 10px;
 }
 .figo {
   color: green;
