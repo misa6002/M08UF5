@@ -32,4 +32,10 @@ table, th, td {
   font-weight: bold;
   font-size: 25px;
 }
-  
+.kante {
+  font-size: 10px;
+  font-weight: bold;
+}
+.messi {
+  float: left;
+}
