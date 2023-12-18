@@ -1,5 +1,5 @@
 body {
-  background-color: powderblue;
+  background-color: rgb(194, 209, 211);
 }
 h1 {
   color: blue;
@@ -38,4 +38,28 @@ table, th, td {
 }
 .messi {
   float: left;
+}
+fieldset:nth-of-type(1) {
+  background-color: #da8888; 
+}
+
+fieldset:nth-of-type(2) {
+  background-color: #98f0c4;
+}
+
+fieldset:nth-of-type(3) {
+  background-color: #ebda8e;
+}
+
+fieldset:nth-of-type(4) {
+  background-color: #f79ddc; 
+}
+
+fieldset:nth-of-type(5) {
+  background-color: #92b5cc; 
+}
+
+.zapatero {
+  font-weight: bold;
+  text-decoration: underline;
 }

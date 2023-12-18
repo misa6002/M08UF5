@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículum</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Currículum</h1>
+  <form action="form.php">
+    <fieldset>
+      <legend><span class="zapatero">Información Personal</span></legend>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre"><br><br>
+
+      <label for="altura">Altura (en centímetros):</label><br>
+      <input type="number" id="altura" name="altura"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+      <input type="date" id="fecha_nacimiento" name="fecha"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend><span class="zapatero">Nacionalidad</span></legend>
+      <input type="radio" id="espanola" name="nacionalidad" value="espanola">
+      <label for="espanola">Española</label><br>
+
+      <input type="radio" id="comunitario" name="nacionalidad" value="comunitario">
+      <label for="comunitario">Comunitario (UE)</label><br>
+
+      <input type="radio" id="no_comunitario" name="nacionalidad" value="no_comunitario">
+      <label for="no_comunitario">No Comunitario</label><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend><span class="zapatero">Estudios</span></legend>
+      <select id="estudios" name="estudios">
+        <option value="bachillerato">Bachillerato</option>
+        <option value="grado medio">Grado Medio</option>
+        <option value="grado superior">Grado Superior</option>
+        <option value="universitario">Universitario</option>
+      </select><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend><span class="zapatero">Idiomas</span></legend>
+      <input type="checkbox" id="idioma1" name="idiomas[]" value="ingles">
+      <label for="idioma1">Inglés</label><br>
+
+      <input type="checkbox" id="idioma2" name="idiomas[]" value="frances">
+      <label for="idioma2">Francés</label><br>
+
+      <input type="checkbox" id="idioma3" name="idiomas[]" value="aleman">
+      <label for="idioma3">Catalan</label><br>
+
+      <input type="checkbox" id="idioma4" name="idiomas[]" value="espanol">
+      <label for="idioma4">Español</label><br><br>
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Cancelar">
+  </form>
+</body>
+</html>
