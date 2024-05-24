@@ -1,0 +1,56 @@
+body {
+    color: #404E67;
+    background: #F5F7FA;
+    font-family: 'Open Sans', sans-serif;
+}
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+.table-title .add-new i {
+    margin-right: 4px;
+}
+table.table td i {
+    font-size: 19px;
+}
+table.table .form-control.error {
+    border-color: #f50000;
+}
+
+table.table td .add {
+    display: none;
+}
+
+/* Estilos para los enlaces de acción */
+table.table td a.add {
+    color: #0d6efd; /* Cambia el color según la paleta de colores de Bootstrap */
+}
+
+table.table td a.edit {
+    color: #ffc107; /* Cambia el color según la paleta de colores de Bootstrap */
+}
+
+table.table td a.delete {
+    color: #dc3545; /* Cambia el color según la paleta de colores de Bootstrap */
+}
+.btn .btn-info .add-new{
+    text-align: right;
+}
+.dropdown-item{
+    text-align: center;
+}
+.list-inline{
+    text-align: center;
+}
+.btn-primary{
+    text-align: right;
+}
+.col-md-6{
+    text-align: center;
+}
+.list-inline{
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center;
+}

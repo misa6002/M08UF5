@@ -1,0 +1,40 @@
+.form-control{
+    width: 400px;
+    margin: auto;  
+   }
+   .form.label{
+       width: 40px;
+       margin: auto;
+   }
+   h2{
+    text-align: center;
+   }
+   p{
+    text-align: center;
+   }
+   .col-sm-12{
+    text-align: center;
+
+   }
+   .logo-container{
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   .col-md-12{
+    text-align: center;
+   }
+   .container-fluid{
+    margin: auto;
+    text-align: center;
+   }
+   .cambiar{
+    text-align: center;
+   }
+   .form-group{
+    text-align: center;
+   }
+    .form-select{
+    width: 400px;
+     margin: auto;
+   }
+

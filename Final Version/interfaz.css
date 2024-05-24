@@ -1,0 +1,39 @@
+.btn-primary{
+    text-align: right;
+}
+.col-md-6{
+    text-align: center;
+}
+.list-inline{
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center;
+}
+.text-center{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: aliceblue;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    visibility: hidden;
+    z-index: 100;
+    transition: visibility 0.3s,z-index 0.3s;
+}
+.image-card {
+	text-align: center;
+	float: center;
+}
+.hola{
+	text-align: center;
+}
+

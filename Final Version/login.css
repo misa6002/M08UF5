@@ -1,0 +1,24 @@
+.body{
+background: aliceblue;
+}
+.container{
+   color: black;
+}
+.imagen{
+    text-align: center;
+}
+.madkam{
+    text-align: center;
+}
+.col-md-12{
+    text-align: center;
+}
+.Iniciar{
+    font-size: 100px;
+}
+.form-control{
+ width: 400px;  
+}
+.form.label{
+    width: 60px;
+}
